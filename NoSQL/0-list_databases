@@ -1,1 +1,1 @@
-db.adminCommand('listDatabases').databases.forEach(db => print(db.name + ' ' + (db.sizeOnDisk / 1024 / 1024 / 1024).toFixed(3) + 'GB'))
+db.adminCommand('listDatabases').databases.forEach(db => { print(db.name + ' ' + (db.sizeOnDisk / 1024 / 1024 / 1024).toFixed(3) + 'GB') })
