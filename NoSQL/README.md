@@ -1,25 +1,27 @@
-# NoSQL
+# NoSQL - MongoDB Project
 
-This directory contains scripts for working with MongoDB (NoSQL databases) as part of the Holberton School back-end web development curriculum.
+## Description
+This project covers the basics of NoSQL databases using MongoDB. It includes tasks on listing databases, creating collections, inserting documents, and performing CRUD operations.
 
-## Resources
-- [NoSQL Databases Explained](https://riak.com/resources/nosql-databases/)
-- [What is NoSQL?](https://www.mongodb.com/nosql-explained)
-- [MongoDB with Python Crash Course](https://www.youtube.com/watch?v=E-1xI85Zog8)
-- [MongoDB Tutorial](https://www.tutorialspoint.com/mongodb/)
+## Learning Objectives
+* What is NoSQL
+* What is MongoDB
+* How to use the MongoDB shell
+* CRUD operations in MongoDB
+* How to use Python with MongoDB (Motor/PyMongo)
 
 ## Requirements
-- MongoDB 3.6.3
-- Ubuntu 18.04 LTS
+* All files are interpreted/compiled on Ubuntu 20.04 LTS using `mongodb` (version 4.4.x)
+* All files should end with a new line
+* The first line of all your files should be a comment: `// my command` or the appropriate shebang for Python scripts.
+* A `README.md` file, at the root of the folder of the project, is mandatory
 
-## Files
-
-| File | Description |
-|------|-------------|
-| 0-list_databases | List all databases |
-| 1-use_or_create_database | Create or use database my_db |
-| 2-insert | Insert a document in collection school |
-| 3-all | List all documents in collection school |
-| 4-match | List documents with name="Holberton school" |
-| 5-count | Count documents in collection school |
-| 6-update | Add attribute address to documents in school |
+## Tasks
+0. List all databases
+1. Create a database
+2. Insert document
+3. All documents
+4. All matches
+5. Count
+6. Update
+7. Delete
