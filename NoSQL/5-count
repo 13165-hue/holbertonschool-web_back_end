@@ -1,1 +1,1 @@
-db.school.find().count()
+db.school.count()
